@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const navItems = ["Home", "About", "Contact"];
+const navItems = ["Home", "About", "Projects", "Skills", "Contact"];
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
