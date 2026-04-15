@@ -25,14 +25,13 @@ const Navbar = () => {
       }`}
     >
       <div className="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
-        {/* Logo */}
-        <div className="w-11 h-11 rounded-lg bg-primary flex items-center justify-center">
-          <span className="text-primary-foreground font-bold text-lg tracking-tight" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
-            SM
-          </span>
-        </div>
+        <span
+          className="text-3xl font-bold italic text-primary tracking-tight"
+          style={{ fontFamily: "'Playfair Display', serif" }}
+        >
+          SM
+        </span>
 
-        {/* Nav links */}
         <div className="flex gap-1">
           {navItems.map((item) => (
             <button
