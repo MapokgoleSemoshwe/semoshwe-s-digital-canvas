@@ -1,4 +1,4 @@
-import { Linkedin, Github } from "lucide-react";
+import { LinkedinIcon, GithubIcon } from "lucide-react";
 
 const Footer = () => (
   <footer className="py-8 border-t">
