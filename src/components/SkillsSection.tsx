@@ -10,6 +10,7 @@ interface Skill {
 }
 
 const skills: Skill[] = [
+<<<<<<< HEAD
   { name: "Java", level: 50,category: ["Backend"] },
   { name: "React", level: 80, category: ["Frontend"] },
   { name: "HTTML", level: 75, category: ["Frontend"] },
@@ -19,6 +20,17 @@ const skills: Skill[] = [
   { name: "Azure", level: 60, category: ["Database"] },
   { name: "UI/UX Design", level: 65, category: ["Frontend"] },
   { name: "CSS", level: 70, category: ["Database"] },
+=======
+  { name: "JavaScript", level: 85, category: ["Frontend"] },
+  { name: "React", level: 80, category: ["Frontend"] },
+  { name: "TypeScript", level: 75, category: ["Frontend"] },
+  { name: "Python", level: 70, category: ["Backend"] },
+  { name: "Node.js", level: 65, category: ["Backend"] },
+  { name: "SQL", level: 70, category: ["Database"] },
+  { name: "MongoDB", level: 60, category: ["Database"] },
+  { name: "UI/UX Design", level: 65, category: ["Frontend"] },
+  { name: "Communication", level: 90, category: ["Frontend", "Backend"] },
+>>>>>>> 82b968d9e7cc0b1ce1ed8a4f907402d8f50a8027
 ];
 
 const categories: Category[] = ["All", "Frontend", "Backend", "Database"];

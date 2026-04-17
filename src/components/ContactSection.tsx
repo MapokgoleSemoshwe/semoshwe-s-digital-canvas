@@ -38,21 +38,33 @@ const ContactSection = () => {
                 <Mail className="w-6 h-6 text-primary mt-0.5" />
                 <div>
                   <h3 className="font-semibold mb-1">Email</h3>
+<<<<<<< HEAD
                   <p className="text-muted-foreground text-sm">smapokgole17@gmail.com</p>
+=======
+                  <p className="text-muted-foreground text-sm">your.email@example.com</p>
+>>>>>>> 82b968d9e7cc0b1ce1ed8a4f907402d8f50a8027
                 </div>
               </div>
               <div className="bg-card rounded-xl p-5 border flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-primary mt-0.5" />
                 <div>
                   <h3 className="font-semibold mb-1">Location</h3>
+<<<<<<< HEAD
                   <p className="text-muted-foreground text-sm">Cape Town, Western Cape,South Africa</p>
+=======
+                  <p className="text-muted-foreground text-sm">South Africa</p>
+>>>>>>> 82b968d9e7cc0b1ce1ed8a4f907402d8f50a8027
                 </div>
               </div>
               <div className="bg-card rounded-xl p-5 border flex items-start gap-4">
                 <Phone className="w-6 h-6 text-primary mt-0.5" />
                 <div>
                   <h3 className="font-semibold mb-1">Phone</h3>
+<<<<<<< HEAD
                   <p className="text-muted-foreground text-sm">+27 72 120 0228</p>
+=======
+                  <p className="text-muted-foreground text-sm">+27 XX XXX XXXX</p>
+>>>>>>> 82b968d9e7cc0b1ce1ed8a4f907402d8f50a8027
                 </div>
               </div>
             </div>

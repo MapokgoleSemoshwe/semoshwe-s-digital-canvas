@@ -3,12 +3,22 @@ import { motion } from "framer-motion";
 const centerNode = { label: "Semoshwe\nMapokgole", x: 400, y: 260 };
 
 const branches = [
+<<<<<<< HEAD
   { label: "Passionate\nDeveloper who wants to contribute to meaningful projects", x: 120, y: 80 },
   { label: "Continuous\nLearner. Willing to learn and grow", x: 680, y: 80 },
   { label: "Problem\nSolver", x: 80, y: 420 },
   { label: "Team\nCollaborator. ",x: 700, y: 420 },
   { label: "Creative\nThinker and able to think outside the box", x: 400, y: 520 },
 ];
+=======
+  { label: "Passionate\nDeveloper", x: 120, y: 80 },
+  { label: "Continuous\nLearner", x: 680, y: 80 },
+  { label: "Problem\nSolver", x: 80, y: 420 },
+  { label: "Team\nCollaborator", x: 700, y: 420 },
+  { label: "Creative\nThinker", x: 400, y: 500 },
+];
+
+>>>>>>> 82b968d9e7cc0b1ce1ed8a4f907402d8f50a8027
 const getCurlyPath = (cx: number, cy: number, tx: number, ty: number) => {
   const mx = (cx + tx) / 2;
   const my = (cy + ty) / 2;
@@ -57,16 +67,29 @@ const AboutSection = () => (
 
           {/* Center node */}
           <div
+<<<<<<< HEAD
             className="absolute rounded-full border-4 border-primary shadow-md overflow-hidden"
+=======
+            className="absolute bg-primary text-primary-foreground rounded-2xl shadow-md flex items-center justify-center text-center font-bold text-lg px-6 py-5"
+>>>>>>> 82b968d9e7cc0b1ce1ed8a4f907402d8f50a8027
             style={{
               left: "50%",
               top: centerNode.y,
               transform: "translate(-50%, -50%)",
+<<<<<<< HEAD
               width: 150,
               height: 150,
             }}
           >
             <img src="/IMG_7418.jpeg" alt="Semoshwe Mapokgole" className="w-full h-full object-cover" />
+=======
+              width: 170,
+              fontFamily: "'Playfair Display', serif",
+              whiteSpace: "pre-line",
+            }}
+          >
+            {centerNode.label}
+>>>>>>> 82b968d9e7cc0b1ce1ed8a4f907402d8f50a8027
           </div>
 
           {/* Branch nodes */}
