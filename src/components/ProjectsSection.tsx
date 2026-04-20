@@ -11,7 +11,7 @@ const ProjectsSection = () => (
         transition={{ duration: 0.6 }}
       >
         <h2 className="text-3xl font-bold mb-8 text-center">
-          My <span className="text-primary"> Capstone Projects</span>
+          My <span className="text-primary"> Projects</span>
         </h2>
 
         <div className="grid gap-12 md:grid-cols-2">
@@ -20,10 +20,10 @@ const ProjectsSection = () => (
           <div className="bg-card rounded-2xl p-8 border hover:shadow-lg transition-shadow group">
             <Folder className="w-10 h-10 text-primary mb-5" />
             <h3 className="font-semibold text-xl mb-3 group-hover:text-primary transition-colors">
-              Project One
+              Capstone Project 
             </h3>
             <p className="text-muted-foreground text-sm mb-5 leading-relaxed">
-              A brief description of this project and the technologies used. Replace this with your actual project details.
+             Developed a full stack e-commerce website using React, Java for the backend abd Springboot for security. The website allows users to browse products, add them to a cart, and complete purchases securely.
             </p>
             <div className="flex flex-wrap gap-2 mb-5">
               {["React", "TypeScript"].map((t) => (

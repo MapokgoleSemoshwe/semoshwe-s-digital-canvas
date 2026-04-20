@@ -31,24 +31,24 @@ const ContactSection = () => {
             Get in <span className="text-primary">Touch</span>
           </h2>
 
-          <div className="grid md:grid-cols-2 gap-10">
+          <div className="grid md:grid-cols-2 gap-10 items-stretch">
             {/* Left – contact info */}
-            <div className="flex flex-col gap-4">
-              <div className="bg-card rounded-xl p-5 border flex items-start gap-4">
+            <div className="flex flex-col gap-4 h-full">
+              <div className="bg-card rounded-xl p-5 border flex items-start gap-4 flex-1">
                 <Mail className="w-6 h-6 text-primary mt-0.5" />
                 <div>
                   <h3 className="font-semibold mb-1">Email</h3>
                   <p className="text-muted-foreground text-sm">smapokgole17@gmail.com</p>
                 </div>
               </div>
-              <div className="bg-card rounded-xl p-5 border flex items-start gap-4">
+              <div className="bg-card rounded-xl p-5 border flex items-start gap-4 flex-1">
                 <MapPin className="w-6 h-6 text-primary mt-0.5" />
                 <div>
                   <h3 className="font-semibold mb-1">Location</h3>
                   <p className="text-muted-foreground text-sm">Cape Town, Western Cape, South Africa</p>
                 </div>
               </div>
-              <div className="bg-card rounded-xl p-5 border flex items-start gap-4">
+              <div className="bg-card rounded-xl p-5 border flex items-start gap-4 flex-1">
                 <Phone className="w-6 h-6 text-primary mt-0.5" />
                 <div>
                   <h3 className="font-semibold mb-1">Phone</h3>
